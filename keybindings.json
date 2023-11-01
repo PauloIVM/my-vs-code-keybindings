@@ -1,0 +1,64 @@
+[
+    {
+        "key": "ctrl+space n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+space f",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+space k",
+        "command": "editor.action.deleteLines"
+    },
+    {
+        "key": "ctrl+space e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+space 1",
+        "command": "workbench.action.focusFirstEditorGroup"
+    },
+    {
+        "key": "ctrl+space t",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+space s",
+        "command": "editor.action.copyLinesDownAction"
+    },
+    {
+        "key": "ctrl+t g p",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "editorTextFocus || terminalFocus",
+        "args": { "text": "git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)" }
+    },
+    {
+        "key": "shift+alt+pagedown",
+        "command": "runCommands",
+        "args": {
+          "commands": ["cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown"]
+        }
+    },
+    {
+        "key": "shift+alt+pageup",
+        "command": "runCommands",
+        "args": {
+          "commands": ["cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp"]
+        }
+    },
+    {
+        "key": "shift+pagedown",
+        "command": "runCommands",
+        "args": {
+          "commands": ["cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown"]
+        }
+    },
+    {
+        "key": "shift+pageup",
+        "command": "runCommands",
+        "args": {
+          "commands": ["cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp"]
+        }
+    }
+]
