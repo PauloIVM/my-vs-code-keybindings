@@ -34,14 +34,14 @@
         "args": { "text": "git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)" }
     },
     {
-        "key": "shift+alt+pagedown",
+        "key": "pagedown",
         "command": "runCommands",
         "args": {
           "commands": ["cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown", "cursorDown"]
         }
     },
     {
-        "key": "shift+alt+pageup",
+        "key": "pageup",
         "command": "runCommands",
         "args": {
           "commands": ["cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp"]
