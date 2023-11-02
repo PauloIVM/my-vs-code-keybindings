@@ -76,5 +76,13 @@
         "args": {
           "commands": ["cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp", "cursorUp"]
         }
+    },
+    {
+        "key": "ctrl+space p n",
+        "command": "search.focus.nextInputBox"
+    },
+    {
+        "key": "ctrl+space p o",
+        "command": "workbench.action.findInFiles"
     }
 ]
