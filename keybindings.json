@@ -84,5 +84,17 @@
     {
         "key": "ctrl+space p o",
         "command": "workbench.action.findInFiles"
+    },
+    {
+        "key": "ctrl+t g s",
+        "command": "git.stage"
+    },
+    {
+        "key": "ctrl+t g u s",
+        "command": "git.unstage"
+    },
+    {
+        "key": "ctrl+t g u a",
+        "command": "git.unstageAll"
     }
 ]
