@@ -1,0 +1,18 @@
+{
+	"console.log": {
+		"prefix": "cl",
+		"body": [
+			"console.${2|log,count,error,info|}(${TM_SELECTED_TEXT:`${1:foo}`});",
+		],
+		"description": "Log something.."
+	},
+	"console.time": {
+		"prefix": "ct",
+		"body": [
+			"console.time(\"$1\");",
+			"${TM_SELECTED_TEXT:$2}",
+			"console.timeEnd(\"$1\");"
+		],
+		"description": "Log time.."
+	}
+}
