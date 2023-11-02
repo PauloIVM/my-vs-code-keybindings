@@ -44,10 +44,16 @@
         }
     },
     {
-        "key": "ctrl+t g p",
-        "command": "workbench.action.terminal.sendSequence",
-        "when": "editorTextFocus || terminalFocus",
-        "args": { "text": "git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)" }
+        "key": "ctrl+space i",
+        "command": "editor.action.showHover"
+    },
+    {
+        "key": "ctrl+space p n",
+        "command": "search.focus.nextInputBox"
+    },
+    {
+        "key": "ctrl+space p o",
+        "command": "workbench.action.findInFiles"
     },
     {
         "key": "pagedown",
@@ -78,14 +84,6 @@
         }
     },
     {
-        "key": "ctrl+space p n",
-        "command": "search.focus.nextInputBox"
-    },
-    {
-        "key": "ctrl+space p o",
-        "command": "workbench.action.findInFiles"
-    },
-    {
         "key": "ctrl+t g s",
         "command": "git.stage"
     },
@@ -96,5 +94,15 @@
     {
         "key": "ctrl+t g u a",
         "command": "git.unstageAll"
+    },
+    {
+        "key": "ctrl+t g p",
+        "command": "workbench.action.terminal.sendSequence",
+        "when": "editorTextFocus || terminalFocus",
+        "args": { "text": "git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)" }
+    },
+    {
+        "key": "ctrl+t g o a",
+        "command": "workbench.view.scm"
     }
 ]
