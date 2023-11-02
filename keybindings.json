@@ -28,6 +28,22 @@
         "command": "editor.action.copyLinesDownAction"
     },
     {
+        "key": "ctrl+space l g",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "name": "console.log"
+        }
+    },
+    {
+        "key": "ctrl+space l t",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "name": "console.time"
+        }
+    },
+    {
         "key": "ctrl+t g p",
         "command": "workbench.action.terminal.sendSequence",
         "when": "editorTextFocus || terminalFocus",
