@@ -21,7 +21,7 @@
     },
     {
         "key": "ctrl+space t",
-        "command": "workbench.action.terminal.focus"
+        "command": "workbench.action.createTerminalEditor"
     },
     {
         "key": "ctrl+space s",
